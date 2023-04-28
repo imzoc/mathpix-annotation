@@ -1,0 +1,49 @@
+{
+    "auto_rotate_confidence": 3.576277407546513e-07,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.9384765625,
+    "confidence_rate": 0.9384765625,
+    "image_height": 84,
+    "image_width": 939,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_9e971373489c0730e952g",
+    "text": "$u\\left(t_{n}\\right)=K_{p} e\\left(t_{n}\\right)+K_{i}\\left(\\sum_{j=0}^{n} e\\left(t_{j}\\right) \\Delta t\\right)+K_{d}\\left(\\frac{e\\left(t_{n}\\right)-e\\left(t_{n-1}\\right)}{\\Delta t}\\right)$.",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 1.430509428246296e-06,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.7482919692993164,
+    "confidence_rate": 0.7482919692993164,
+    "image_height": 73,
+    "image_width": 891,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_9ffe8222da81909c850ag",
+    "text": "$\\frac{I_{i, t}^{i n c}}{M_{i, t}}=\\frac{U_{c, t}}{N_{c}-\\hat{R}_{c, t}}$ for any time $t \\in\\left[T_{0}, T_{1}\\right]$, city $i$ and epicenter $c$",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 0,
+    "auto_rotate_degrees": 0,
+    "confidence": 1,
+    "confidence_rate": 1,
+    "image_height": 66,
+    "image_width": 269,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_6e06fea71a200061189ag",
+    "text": "$\\gamma(t)=\\frac{1}{\\kappa(t)}=\\frac{d}{d t} C(t)$",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 0,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.9365061955236342,
+    "confidence_rate": 0.9365061955236342,
+    "image_height": 26,
+    "image_width": 723,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_77185b6f26d8821c0a6bg",
+    "text": "$p\\left(\\boldsymbol{I}, \\boldsymbol{R}^{+} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}\\right)=p(\\boldsymbol{I} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}) p\\left(\\boldsymbol{R}^{+} \\mid \\boldsymbol{I}\\right)$",
+    "version": "RSK-M113"
+}
