@@ -13,12 +13,14 @@
             "value": "u\\left(t_{n}\\right)=K_{p} e\\left(t_{n}\\right)+K_{i}\\left(\\sum_{j=0}^{n} e\\left(t_{j}\\right) \\Delta t\\right)+K_{d}\\left(\\frac{e\\left(t_{n}\\right)-e\\left(t_{n-1}\\right)}{\\Delta t}\\right)"
         }
     ],
+    "filename": "mathml-images/images_filtered/08160e6f-a4c0-4ca9-88cc-7b5febd58bf8.png",
     "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>u</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msub>\n      <mi>t</mi>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>p</mi>\n    </mrow>\n  </msub>\n  <mi>e</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msub>\n      <mi>t</mi>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>+</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>i</mi>\n    </mrow>\n  </msub>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <munderover>\n      <mo data-mjx-texclass=\"OP\">&#x2211;</mo>\n      <mrow>\n        <mi>j</mi>\n        <mo>=</mo>\n        <mn>0</mn>\n      </mrow>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </munderover>\n    <mi>e</mi>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">(</mo>\n      <msub>\n        <mi>t</mi>\n        <mrow>\n          <mi>j</mi>\n        </mrow>\n      </msub>\n      <mo data-mjx-texclass=\"CLOSE\">)</mo>\n    </mrow>\n    <mi mathvariant=\"normal\">&#x394;</mi>\n    <mi>t</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>+</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>d</mi>\n    </mrow>\n  </msub>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mfrac>\n      <mrow>\n        <mi>e</mi>\n        <mrow data-mjx-texclass=\"INNER\">\n          <mo data-mjx-texclass=\"OPEN\">(</mo>\n          <msub>\n            <mi>t</mi>\n            <mrow>\n              <mi>n</mi>\n            </mrow>\n          </msub>\n          <mo data-mjx-texclass=\"CLOSE\">)</mo>\n        </mrow>\n        <mo>&#x2212;</mo>\n        <mi>e</mi>\n        <mrow data-mjx-texclass=\"INNER\">\n          <mo data-mjx-texclass=\"OPEN\">(</mo>\n          <msub>\n            <mi>t</mi>\n            <mrow>\n              <mi>n</mi>\n              <mo>&#x2212;</mo>\n              <mn>1</mn>\n            </mrow>\n          </msub>\n          <mo data-mjx-texclass=\"CLOSE\">)</mo>\n        </mrow>\n      </mrow>\n      <mrow>\n        <mi mathvariant=\"normal\">&#x394;</mi>\n        <mi>t</mi>\n      </mrow>\n    </mfrac>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n</math></mathml><latex style=\"display: none\">u\\left(t_{n}\\right)=K_{p} e\\left(t_{n}\\right)+K_{i}\\left(\\sum_{j=0}^{n} e\\left(t_{j}\\right) \\Delta t\\right)+K_{d}\\left(\\frac{e\\left(t_{n}\\right)-e\\left(t_{n-1}\\right)}{\\Delta t}\\right)</latex></span>.</div>\n",
     "image_height": 84,
     "image_width": 939,
     "is_handwritten": false,
     "is_printed": true,
-    "request_id": "2023_04_28_6e97982209766c6a0af3g",
+    "request_id": "2023_04_28_d25dd3a527fcde6bad03g",
+    "text": "$u\\left(t_{n}\\right)=K_{p} e\\left(t_{n}\\right)+K_{i}\\left(\\sum_{j=0}^{n} e\\left(t_{j}\\right) \\Delta t\\right)+K_{d}\\left(\\frac{e\\left(t_{n}\\right)-e\\left(t_{n-1}\\right)}{\\Delta t}\\right)$.",
     "version": "RSK-M113"
 }{
     "auto_rotate_confidence": 1.430509428246296e-06,
@@ -59,12 +61,14 @@
             "value": "c"
         }
     ],
+    "filename": "mathml-images/images_filtered/186a42c3-c8e5-4902-bc8f-39e4759853a3.png",
     "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <msubsup>\n      <mi>I</mi>\n      <mrow>\n        <mi>i</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n      <mrow>\n        <mi>i</mi>\n        <mi>n</mi>\n        <mi>c</mi>\n      </mrow>\n    </msubsup>\n    <msub>\n      <mi>M</mi>\n      <mrow>\n        <mi>i</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n    </msub>\n  </mfrac>\n  <mo>=</mo>\n  <mfrac>\n    <msub>\n      <mi>U</mi>\n      <mrow>\n        <mi>c</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n    </msub>\n    <mrow>\n      <msub>\n        <mi>N</mi>\n        <mrow>\n          <mi>c</mi>\n        </mrow>\n      </msub>\n      <mo>&#x2212;</mo>\n      <msub>\n        <mrow>\n          <mover>\n            <mi>R</mi>\n            <mo stretchy=\"false\">^</mo>\n          </mover>\n        </mrow>\n        <mrow>\n          <mi>c</mi>\n          <mo>,</mo>\n          <mi>t</mi>\n        </mrow>\n      </msub>\n    </mrow>\n  </mfrac>\n</math></mathml><latex style=\"display: none\">\\frac{I_{i, t}^{i n c}}{M_{i, t}}=\\frac{U_{c, t}}{N_{c}-\\hat{R}_{c, t}}</latex></span> for any time <span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>t</mi>\n  <mo>&#x2208;</mo>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">[</mo>\n    <msub>\n      <mi>T</mi>\n      <mrow>\n        <mn>0</mn>\n      </mrow>\n    </msub>\n    <mo>,</mo>\n    <msub>\n      <mi>T</mi>\n      <mrow>\n        <mn>1</mn>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">]</mo>\n  </mrow>\n</math></mathml><latex style=\"display: none\">t \\in\\left[T_{0}, T_{1}\\right]</latex></span>, city <span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>i</mi>\n</math></mathml><latex style=\"display: none\">i</latex></span> and epicenter <span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>c</mi>\n</math></mathml><latex style=\"display: none\">c</latex></span></div>\n",
     "image_height": 73,
     "image_width": 891,
     "is_handwritten": false,
     "is_printed": true,
-    "request_id": "2023_04_28_f08f601505e37b9c963dg",
+    "request_id": "2023_04_28_2a183db148fba4e1aabbg",
+    "text": "$\\frac{I_{i, t}^{i n c}}{M_{i, t}}=\\frac{U_{c, t}}{N_{c}-\\hat{R}_{c, t}}$ for any time $t \\in\\left[T_{0}, T_{1}\\right]$, city $i$ and epicenter $c$",
     "version": "RSK-M113"
 }{
     "auto_rotate_confidence": 0,
@@ -81,12 +85,14 @@
             "value": "\\gamma(t)=\\frac{1}{\\kappa(t)}=\\frac{d}{d t} C(t)"
         }
     ],
+    "filename": "mathml-images/images_filtered/f8feb3d9-ea19-45c4-8d1c-bbbc93fe3f18.png",
     "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>&#x3B3;</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mrow>\n      <mi>&#x3BA;</mi>\n      <mo stretchy=\"false\">(</mo>\n      <mi>t</mi>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n  </mfrac>\n  <mo>=</mo>\n  <mfrac>\n    <mi>d</mi>\n    <mrow>\n      <mi>d</mi>\n      <mi>t</mi>\n    </mrow>\n  </mfrac>\n  <mi>C</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n</math></mathml><latex style=\"display: none\">\\gamma(t)=\\frac{1}{\\kappa(t)}=\\frac{d}{d t} C(t)</latex></span></div>\n",
     "image_height": 66,
     "image_width": 269,
     "is_handwritten": false,
     "is_printed": true,
-    "request_id": "2023_04_28_0655d53c770617e0c7e4g",
+    "request_id": "2023_04_28_6078790a56445993b1bdg",
+    "text": "$\\gamma(t)=\\frac{1}{\\kappa(t)}=\\frac{d}{d t} C(t)$",
     "version": "RSK-M113"
 }{
     "auto_rotate_confidence": 0,
@@ -103,11 +109,13 @@
             "value": "p\\left(\\boldsymbol{I}, \\boldsymbol{R}^{+} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}\\right)=p(\\boldsymbol{I} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}) p\\left(\\boldsymbol{R}^{+} \\mid \\boldsymbol{I}\\right)"
         }
     ],
+    "filename": "mathml-images/images_filtered/28b7e421-3929-4130-8db8-8a27a411b51c.png",
     "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>p</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mi mathvariant=\"bold-italic\">I</mi>\n    <mo>,</mo>\n    <msup>\n      <mi mathvariant=\"bold-italic\">R</mi>\n      <mrow>\n        <mo>+</mo>\n      </mrow>\n    </msup>\n    <mo>&#x2223;</mo>\n    <mrow>\n      <mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">R</mi>\n    </mrow>\n    <mo>,</mo>\n    <mi mathvariant=\"bold-italic\">n</mi>\n    <mo>,</mo>\n    <mi mathvariant=\"bold-italic\">N</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <mi>p</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi mathvariant=\"bold-italic\">I</mi>\n  <mo>&#x2223;</mo>\n  <mrow>\n    <mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">R</mi>\n  </mrow>\n  <mo>,</mo>\n  <mi mathvariant=\"bold-italic\">n</mi>\n  <mo>,</mo>\n  <mi mathvariant=\"bold-italic\">N</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mi>p</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msup>\n      <mi mathvariant=\"bold-italic\">R</mi>\n      <mrow>\n        <mo>+</mo>\n      </mrow>\n    </msup>\n    <mo>&#x2223;</mo>\n    <mi mathvariant=\"bold-italic\">I</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n</math></mathml><latex style=\"display: none\">p\\left(\\boldsymbol{I}, \\boldsymbol{R}^{+} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}\\right)=p(\\boldsymbol{I} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}) p\\left(\\boldsymbol{R}^{+} \\mid \\boldsymbol{I}\\right)</latex></span></div>\n",
     "image_height": 26,
     "image_width": 723,
     "is_handwritten": false,
     "is_printed": true,
-    "request_id": "2023_04_28_25aa07c6f0f08bb5e807g",
+    "request_id": "2023_04_28_b0a812ecd90ad18a8ba4g",
+    "text": "$p\\left(\\boldsymbol{I}, \\boldsymbol{R}^{+} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}\\right)=p(\\boldsymbol{I} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}) p\\left(\\boldsymbol{R}^{+} \\mid \\boldsymbol{I}\\right)$",
     "version": "RSK-M113"
 }
