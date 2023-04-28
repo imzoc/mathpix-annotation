@@ -1,0 +1,49 @@
+{
+    "auto_rotate_confidence": 3.576277407546513e-07,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.9384765625,
+    "confidence_rate": 0.9384765625,
+    "data": [],
+    "image_height": 84,
+    "image_width": 939,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_c0427eacdd0763132e5eg",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 1.430509428246296e-06,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.7482919692993164,
+    "confidence_rate": 0.7482919692993164,
+    "data": [],
+    "image_height": 73,
+    "image_width": 891,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_108fc0c67330bdc1a556g",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 0,
+    "auto_rotate_degrees": 0,
+    "confidence": 1,
+    "confidence_rate": 1,
+    "data": [],
+    "image_height": 66,
+    "image_width": 269,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_61e998541acc250d6974g",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 0,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.9365061955236342,
+    "confidence_rate": 0.9365061955236342,
+    "data": [],
+    "image_height": 26,
+    "image_width": 723,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_e6ccbad9f70a9226fdeeg",
+    "version": "RSK-M113"
+}

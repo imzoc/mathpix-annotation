@@ -1,0 +1,113 @@
+{
+    "auto_rotate_confidence": 3.576277407546513e-07,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.9384765625,
+    "confidence_rate": 0.9384765625,
+    "data": [
+        {
+            "type": "mathml",
+            "value": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>u</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msub>\n      <mi>t</mi>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>p</mi>\n    </mrow>\n  </msub>\n  <mi>e</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msub>\n      <mi>t</mi>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>+</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>i</mi>\n    </mrow>\n  </msub>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <munderover>\n      <mo data-mjx-texclass=\"OP\">\u2211</mo>\n      <mrow>\n        <mi>j</mi>\n        <mo>=</mo>\n        <mn>0</mn>\n      </mrow>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </munderover>\n    <mi>e</mi>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">(</mo>\n      <msub>\n        <mi>t</mi>\n        <mrow>\n          <mi>j</mi>\n        </mrow>\n      </msub>\n      <mo data-mjx-texclass=\"CLOSE\">)</mo>\n    </mrow>\n    <mi mathvariant=\"normal\">\u0394</mi>\n    <mi>t</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>+</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>d</mi>\n    </mrow>\n  </msub>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mfrac>\n      <mrow>\n        <mi>e</mi>\n        <mrow data-mjx-texclass=\"INNER\">\n          <mo data-mjx-texclass=\"OPEN\">(</mo>\n          <msub>\n            <mi>t</mi>\n            <mrow>\n              <mi>n</mi>\n            </mrow>\n          </msub>\n          <mo data-mjx-texclass=\"CLOSE\">)</mo>\n        </mrow>\n        <mo>\u2212</mo>\n        <mi>e</mi>\n        <mrow data-mjx-texclass=\"INNER\">\n          <mo data-mjx-texclass=\"OPEN\">(</mo>\n          <msub>\n            <mi>t</mi>\n            <mrow>\n              <mi>n</mi>\n              <mo>\u2212</mo>\n              <mn>1</mn>\n            </mrow>\n          </msub>\n          <mo data-mjx-texclass=\"CLOSE\">)</mo>\n        </mrow>\n      </mrow>\n      <mrow>\n        <mi mathvariant=\"normal\">\u0394</mi>\n        <mi>t</mi>\n      </mrow>\n    </mfrac>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n</math>"
+        },
+        {
+            "type": "latex",
+            "value": "u\\left(t_{n}\\right)=K_{p} e\\left(t_{n}\\right)+K_{i}\\left(\\sum_{j=0}^{n} e\\left(t_{j}\\right) \\Delta t\\right)+K_{d}\\left(\\frac{e\\left(t_{n}\\right)-e\\left(t_{n-1}\\right)}{\\Delta t}\\right)"
+        }
+    ],
+    "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>u</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msub>\n      <mi>t</mi>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>p</mi>\n    </mrow>\n  </msub>\n  <mi>e</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msub>\n      <mi>t</mi>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>+</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>i</mi>\n    </mrow>\n  </msub>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <munderover>\n      <mo data-mjx-texclass=\"OP\">&#x2211;</mo>\n      <mrow>\n        <mi>j</mi>\n        <mo>=</mo>\n        <mn>0</mn>\n      </mrow>\n      <mrow>\n        <mi>n</mi>\n      </mrow>\n    </munderover>\n    <mi>e</mi>\n    <mrow data-mjx-texclass=\"INNER\">\n      <mo data-mjx-texclass=\"OPEN\">(</mo>\n      <msub>\n        <mi>t</mi>\n        <mrow>\n          <mi>j</mi>\n        </mrow>\n      </msub>\n      <mo data-mjx-texclass=\"CLOSE\">)</mo>\n    </mrow>\n    <mi mathvariant=\"normal\">&#x394;</mi>\n    <mi>t</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>+</mo>\n  <msub>\n    <mi>K</mi>\n    <mrow>\n      <mi>d</mi>\n    </mrow>\n  </msub>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mfrac>\n      <mrow>\n        <mi>e</mi>\n        <mrow data-mjx-texclass=\"INNER\">\n          <mo data-mjx-texclass=\"OPEN\">(</mo>\n          <msub>\n            <mi>t</mi>\n            <mrow>\n              <mi>n</mi>\n            </mrow>\n          </msub>\n          <mo data-mjx-texclass=\"CLOSE\">)</mo>\n        </mrow>\n        <mo>&#x2212;</mo>\n        <mi>e</mi>\n        <mrow data-mjx-texclass=\"INNER\">\n          <mo data-mjx-texclass=\"OPEN\">(</mo>\n          <msub>\n            <mi>t</mi>\n            <mrow>\n              <mi>n</mi>\n              <mo>&#x2212;</mo>\n              <mn>1</mn>\n            </mrow>\n          </msub>\n          <mo data-mjx-texclass=\"CLOSE\">)</mo>\n        </mrow>\n      </mrow>\n      <mrow>\n        <mi mathvariant=\"normal\">&#x394;</mi>\n        <mi>t</mi>\n      </mrow>\n    </mfrac>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n</math></mathml><latex style=\"display: none\">u\\left(t_{n}\\right)=K_{p} e\\left(t_{n}\\right)+K_{i}\\left(\\sum_{j=0}^{n} e\\left(t_{j}\\right) \\Delta t\\right)+K_{d}\\left(\\frac{e\\left(t_{n}\\right)-e\\left(t_{n-1}\\right)}{\\Delta t}\\right)</latex></span>.</div>\n",
+    "image_height": 84,
+    "image_width": 939,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_fd5de91f27987bf2c4afg",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 1.430509428246296e-06,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.7482919692993164,
+    "confidence_rate": 0.7482919692993164,
+    "data": [
+        {
+            "type": "mathml",
+            "value": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <msubsup>\n      <mi>I</mi>\n      <mrow>\n        <mi>i</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n      <mrow>\n        <mi>i</mi>\n        <mi>n</mi>\n        <mi>c</mi>\n      </mrow>\n    </msubsup>\n    <msub>\n      <mi>M</mi>\n      <mrow>\n        <mi>i</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n    </msub>\n  </mfrac>\n  <mo>=</mo>\n  <mfrac>\n    <msub>\n      <mi>U</mi>\n      <mrow>\n        <mi>c</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n    </msub>\n    <mrow>\n      <msub>\n        <mi>N</mi>\n        <mrow>\n          <mi>c</mi>\n        </mrow>\n      </msub>\n      <mo>\u2212</mo>\n      <msub>\n        <mrow>\n          <mover>\n            <mi>R</mi>\n            <mo stretchy=\"false\">^</mo>\n          </mover>\n        </mrow>\n        <mrow>\n          <mi>c</mi>\n          <mo>,</mo>\n          <mi>t</mi>\n        </mrow>\n      </msub>\n    </mrow>\n  </mfrac>\n</math>"
+        },
+        {
+            "type": "latex",
+            "value": "\\frac{I_{i, t}^{i n c}}{M_{i, t}}=\\frac{U_{c, t}}{N_{c}-\\hat{R}_{c, t}}"
+        },
+        {
+            "type": "mathml",
+            "value": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>t</mi>\n  <mo>\u2208</mo>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">[</mo>\n    <msub>\n      <mi>T</mi>\n      <mrow>\n        <mn>0</mn>\n      </mrow>\n    </msub>\n    <mo>,</mo>\n    <msub>\n      <mi>T</mi>\n      <mrow>\n        <mn>1</mn>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">]</mo>\n  </mrow>\n</math>"
+        },
+        {
+            "type": "latex",
+            "value": "t \\in\\left[T_{0}, T_{1}\\right]"
+        },
+        {
+            "type": "mathml",
+            "value": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>i</mi>\n</math>"
+        },
+        {
+            "type": "latex",
+            "value": "i"
+        },
+        {
+            "type": "mathml",
+            "value": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>c</mi>\n</math>"
+        },
+        {
+            "type": "latex",
+            "value": "c"
+        }
+    ],
+    "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mfrac>\n    <msubsup>\n      <mi>I</mi>\n      <mrow>\n        <mi>i</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n      <mrow>\n        <mi>i</mi>\n        <mi>n</mi>\n        <mi>c</mi>\n      </mrow>\n    </msubsup>\n    <msub>\n      <mi>M</mi>\n      <mrow>\n        <mi>i</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n    </msub>\n  </mfrac>\n  <mo>=</mo>\n  <mfrac>\n    <msub>\n      <mi>U</mi>\n      <mrow>\n        <mi>c</mi>\n        <mo>,</mo>\n        <mi>t</mi>\n      </mrow>\n    </msub>\n    <mrow>\n      <msub>\n        <mi>N</mi>\n        <mrow>\n          <mi>c</mi>\n        </mrow>\n      </msub>\n      <mo>&#x2212;</mo>\n      <msub>\n        <mrow>\n          <mover>\n            <mi>R</mi>\n            <mo stretchy=\"false\">^</mo>\n          </mover>\n        </mrow>\n        <mrow>\n          <mi>c</mi>\n          <mo>,</mo>\n          <mi>t</mi>\n        </mrow>\n      </msub>\n    </mrow>\n  </mfrac>\n</math></mathml><latex style=\"display: none\">\\frac{I_{i, t}^{i n c}}{M_{i, t}}=\\frac{U_{c, t}}{N_{c}-\\hat{R}_{c, t}}</latex></span> for any time <span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>t</mi>\n  <mo>&#x2208;</mo>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">[</mo>\n    <msub>\n      <mi>T</mi>\n      <mrow>\n        <mn>0</mn>\n      </mrow>\n    </msub>\n    <mo>,</mo>\n    <msub>\n      <mi>T</mi>\n      <mrow>\n        <mn>1</mn>\n      </mrow>\n    </msub>\n    <mo data-mjx-texclass=\"CLOSE\">]</mo>\n  </mrow>\n</math></mathml><latex style=\"display: none\">t \\in\\left[T_{0}, T_{1}\\right]</latex></span>, city <span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>i</mi>\n</math></mathml><latex style=\"display: none\">i</latex></span> and epicenter <span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>c</mi>\n</math></mathml><latex style=\"display: none\">c</latex></span></div>\n",
+    "image_height": 73,
+    "image_width": 891,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_6c08a0efca7256a99cc4g",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 0,
+    "auto_rotate_degrees": 0,
+    "confidence": 1,
+    "confidence_rate": 1,
+    "data": [
+        {
+            "type": "mathml",
+            "value": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>\u03b3</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mrow>\n      <mi>\u03ba</mi>\n      <mo stretchy=\"false\">(</mo>\n      <mi>t</mi>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n  </mfrac>\n  <mo>=</mo>\n  <mfrac>\n    <mi>d</mi>\n    <mrow>\n      <mi>d</mi>\n      <mi>t</mi>\n    </mrow>\n  </mfrac>\n  <mi>C</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n</math>"
+        },
+        {
+            "type": "latex",
+            "value": "\\gamma(t)=\\frac{1}{\\kappa(t)}=\\frac{d}{d t} C(t)"
+        }
+    ],
+    "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>&#x3B3;</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mo>=</mo>\n  <mfrac>\n    <mn>1</mn>\n    <mrow>\n      <mi>&#x3BA;</mi>\n      <mo stretchy=\"false\">(</mo>\n      <mi>t</mi>\n      <mo stretchy=\"false\">)</mo>\n    </mrow>\n  </mfrac>\n  <mo>=</mo>\n  <mfrac>\n    <mi>d</mi>\n    <mrow>\n      <mi>d</mi>\n      <mi>t</mi>\n    </mrow>\n  </mfrac>\n  <mi>C</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi>t</mi>\n  <mo stretchy=\"false\">)</mo>\n</math></mathml><latex style=\"display: none\">\\gamma(t)=\\frac{1}{\\kappa(t)}=\\frac{d}{d t} C(t)</latex></span></div>\n",
+    "image_height": 66,
+    "image_width": 269,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_8d80974aedbf15e110abg",
+    "version": "RSK-M113"
+}{
+    "auto_rotate_confidence": 0,
+    "auto_rotate_degrees": 0,
+    "confidence": 0.9365061955236342,
+    "confidence_rate": 0.9365061955236342,
+    "data": [
+        {
+            "type": "mathml",
+            "value": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>p</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mi mathvariant=\"bold-italic\">I</mi>\n    <mo>,</mo>\n    <msup>\n      <mi mathvariant=\"bold-italic\">R</mi>\n      <mrow>\n        <mo>+</mo>\n      </mrow>\n    </msup>\n    <mo>\u2223</mo>\n    <mrow>\n      <mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">R</mi>\n    </mrow>\n    <mo>,</mo>\n    <mi mathvariant=\"bold-italic\">n</mi>\n    <mo>,</mo>\n    <mi mathvariant=\"bold-italic\">N</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <mi>p</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi mathvariant=\"bold-italic\">I</mi>\n  <mo>\u2223</mo>\n  <mrow>\n    <mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">R</mi>\n  </mrow>\n  <mo>,</mo>\n  <mi mathvariant=\"bold-italic\">n</mi>\n  <mo>,</mo>\n  <mi mathvariant=\"bold-italic\">N</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mi>p</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msup>\n      <mi mathvariant=\"bold-italic\">R</mi>\n      <mrow>\n        <mo>+</mo>\n      </mrow>\n    </msup>\n    <mo>\u2223</mo>\n    <mi mathvariant=\"bold-italic\">I</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n</math>"
+        },
+        {
+            "type": "latex",
+            "value": "p\\left(\\boldsymbol{I}, \\boldsymbol{R}^{+} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}\\right)=p(\\boldsymbol{I} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}) p\\left(\\boldsymbol{R}^{+} \\mid \\boldsymbol{I}\\right)"
+        }
+    ],
+    "html": "<div><span class=\"math-inline \"><mathml style=\"display: none\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n  <mi>p</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <mi mathvariant=\"bold-italic\">I</mi>\n    <mo>,</mo>\n    <msup>\n      <mi mathvariant=\"bold-italic\">R</mi>\n      <mrow>\n        <mo>+</mo>\n      </mrow>\n    </msup>\n    <mo>&#x2223;</mo>\n    <mrow>\n      <mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">R</mi>\n    </mrow>\n    <mo>,</mo>\n    <mi mathvariant=\"bold-italic\">n</mi>\n    <mo>,</mo>\n    <mi mathvariant=\"bold-italic\">N</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n  <mo>=</mo>\n  <mi>p</mi>\n  <mo stretchy=\"false\">(</mo>\n  <mi mathvariant=\"bold-italic\">I</mi>\n  <mo>&#x2223;</mo>\n  <mrow>\n    <mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">R</mi>\n  </mrow>\n  <mo>,</mo>\n  <mi mathvariant=\"bold-italic\">n</mi>\n  <mo>,</mo>\n  <mi mathvariant=\"bold-italic\">N</mi>\n  <mo stretchy=\"false\">)</mo>\n  <mi>p</mi>\n  <mrow data-mjx-texclass=\"INNER\">\n    <mo data-mjx-texclass=\"OPEN\">(</mo>\n    <msup>\n      <mi mathvariant=\"bold-italic\">R</mi>\n      <mrow>\n        <mo>+</mo>\n      </mrow>\n    </msup>\n    <mo>&#x2223;</mo>\n    <mi mathvariant=\"bold-italic\">I</mi>\n    <mo data-mjx-texclass=\"CLOSE\">)</mo>\n  </mrow>\n</math></mathml><latex style=\"display: none\">p\\left(\\boldsymbol{I}, \\boldsymbol{R}^{+} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}\\right)=p(\\boldsymbol{I} \\mid \\mathcal{R}, \\boldsymbol{n}, \\boldsymbol{N}) p\\left(\\boldsymbol{R}^{+} \\mid \\boldsymbol{I}\\right)</latex></span></div>\n",
+    "image_height": 26,
+    "image_width": 723,
+    "is_handwritten": false,
+    "is_printed": true,
+    "request_id": "2023_04_28_2c4626ab97428a67c437g",
+    "version": "RSK-M113"
+}

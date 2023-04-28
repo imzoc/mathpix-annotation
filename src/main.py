@@ -10,77 +10,80 @@ import time
 
 import requests
 
-### API KEY AUTHORIZATION
-api_path = "internal/zach/api-key.txt"
-with open(api_path) as api_key_file:
-    API_KEY = str(api_key_file.readline())
-
-### CONSTANTS
-URL = "https://api.mathpix.com/v3/text"
-HEADERS = {
-    "app_id": "Zach's MathML requests",
-    "app_key": API_KEY,
-}
-DATE = time.strftime(f"%m-%d-%Y", time.gmtime())
-
-### IMAGES
-IMG_DIR = "mathml-images/images_filtered"
-IMAGES = glob.glob(os.path.join(IMG_DIR, "*.png"))
-
 
 def main():
-    results = take_3_images()
-    write_results_to_file_raw(results)
+    request_handler = RequestHandler()
+    data = request_handler.take_3_images()
+    request_handler.write_results_to_file_raw(data)
 
 
-def take_3_images():
-    """Sends 3 POST requests via send_post_request."""
-    return [send_post_request(image) for image in IMAGES[0:4]]
+class RequestHandler:
+    def __init__(self):
+        with open("internal/zach/api-key.txt") as api_key_file:
+            api_key = str(api_key_file.readline())
 
-
-def send_post_request(image):
-    """This function sends a post request with the image passed to it.
-    It uses constants declared at the beginning of the script.
-    """
-    print("Sending POST request...")
-    files = {"file": open(image, "rb")}
-    options_json = json.dumps(
-        {
-            "math_inline_delimiters": ["$", "$"],
-            "rm_spaces": True,
-            "formats": ["text"],
+        self.url = "https://api.mathpix.com/v3/text"
+        self.headers = {
+            "app_id": "Zach's MathML requests",
+            "app_key": api_key,
         }
-    )
+        self.images = glob.glob(
+            os.path.join("mathml-images/images_filtered", "*.png")
+        )
 
-    r = requests.post(
-        URL,
-        files=files,
-        data={"options_json": options_json},
-        headers=HEADERS,
-    )
-    result = json.dumps(r.json(), indent=4, sort_keys=True)
-    return result
+    def get_date(self):
+        return time.strftime(f"%m-%d-%Y", time.gmtime())
 
+    def take_3_images(self):
+        """Sends 3 POST requests via send_post_request."""
+        return [
+            self.send_post_request(image) for image in self.images[0:4]
+        ]
 
-def write_results_to_file_raw(results):
-    """This function writes results to a file in the results/
-    directory.
-    """
-    batch_number = 0
-    for file in glob.glob("results/*.json"):
-        if file.startswith("results/raw-" + DATE):
-            local_batch_number = int(
-                file.split("-")[-1].replace(".json", "")
-            )
-            if local_batch_number >= batch_number:
-                batch_number = local_batch_number + 1
+    def send_post_request(self, image):
+        """This function sends a post request with the image passed to it.
+        It uses constants declared at the beginning of the script.
+        """
+        print("Sending POST request...")
 
-    results_file_name = (
-        f"results/raw-{DATE}-batch-{str(batch_number)}.json"
-    )
-    with open(results_file_name, "w") as file:
-        for result in results:
-            file.write(result)
+        options_json = json.dumps(
+            {
+                "math_inline_delimiters": ["$", "$"],
+                "rm_spaces": True,
+                "formats": ["data", "html"],
+                "data_options": {
+                    "include_mathml": True,
+                    "include_latex": True,
+                },
+            }
+        )
+
+        r = requests.post(
+            self.url,
+            files={"file": open(image, "rb")},
+            data={"options_json": options_json},
+            headers=self.headers,
+        )
+        result = json.dumps(r.json(), indent=4, sort_keys=True)
+        return result
+
+    def write_results_to_file_raw(self, results):
+        """This function writes results to a file in the results/
+        directory.
+        """
+        batch_number = 0
+        for file in glob.glob("results/*.json"):
+            if file.startswith("results/raw-" + self.get_date()):
+                local_batch_number = int(
+                    file.split("-")[-1].replace(".json", "")
+                )
+                if local_batch_number >= batch_number:
+                    batch_number = local_batch_number + 1
+
+        results_file_name = f"results/raw-{self.get_date()}-batch-{str(batch_number)}.json"
+        with open(results_file_name, "w") as file:
+            for result in results:
+                file.write(result)
 
 
 if __name__ == "__main__":
