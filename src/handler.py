@@ -40,26 +40,25 @@ class RequestHandler:
 
         return f"results/raw-{self._get_date()}-batch-{str(batch_number)}.json"
 
-    def take_n_images(self, n, allowed_errors=0):
+    def take_n_images(self, n):
         """Sends n POST requests via send_post_request."""
         results_list = ResultsList()
         error_count = 0
         for image in self.images[0 : n + 1]:
-            # try:
-            result = self.send_post_request(image)
-            results_list.add(result)
-            """
+            try:
+                result = self.send_post_request(image)
+                results_list.add(result)
             except:
-                print(
-                    "Encountered an error sending POST request (line 37)."
-                )
-                error_count += 1
-                print(f"Error count: {error_count}")
-                if error_count == allowed_errors + 1:
-                    print("Writing data to file and exiting...")
-                    break
-            """
+                print("Encountered an error sending POST request.")
+                print("Writing data to file and exiting...")
+
         return results_list
+
+    def take_all_images(self):
+        """Sends POST requests for all images via take_n_images."""
+        n = len(self.images)
+        result = self.take_n_images(n - 1)
+        return result
 
     def send_post_request(self, image):
         """This function sends a post request with the image passed to
@@ -88,14 +87,27 @@ class RequestHandler:
         result = Result(req.json(), str(image))
         return result
 
-    def write_results_to_file(self, results):
+    def write_results_to_file(self, results_list):
         """This function writes results from a results list
         to a file in the results/
         directory.
         """
         results_file_name = self._gen_results_file_name()
+        json_ = {"results": []}
+        for result in results_list.get_results_list():
+            try:
+                result_json = result.json()
+            except:
+                result_json = (
+                    "Issue generating json from Result object..."
+                )
+            json_["results"].append(result_json)
+        json_ = json.dumps(
+            json_,
+            indent=2,
+        )
         with open(results_file_name, "w") as file:
-            pass
+            file.write(json_)
 
     def read_results_from_file(self, results_file):
         with open(results_file) as open_file:
@@ -114,6 +126,17 @@ class Result:
         self.latex = request["data"][1]["value"]
         self.mathpixml = request["text"]
 
+    def json(self):
+        json_ = {
+            "original_file": self.original_file,
+            "ml": {
+                "mathml": self.mathml,
+                "latex": self.latex,
+                "mathpixml": self.mathpixml,
+            },
+        }
+        return json_
+
 
 class ResultsList:
     def __init__(self):
@@ -123,4 +146,7 @@ class ResultsList:
         self.results_list.append(result)
 
     def __repr__(self):
+        return self.results_list
+
+    def get_results_list(self):
         return self.results_list
