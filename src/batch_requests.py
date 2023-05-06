@@ -5,7 +5,6 @@ This program sends requests to the Mathpix server.
 import glob
 import json
 import os
-import sys
 import time
 
 import requests
@@ -35,6 +34,7 @@ class BatchRequestHandler:
                 ### IDRK what these do??
                 # "math_inline_delimiters": ["$", "$"],
                 # "rm_spaces": True,
+                "ocr_behavior": "text",
                 "formats": ["data", "html", "text"],
                 "data_options": {
                     "include_mathml": True,
@@ -74,26 +74,12 @@ class BatchRequestHandler:
             os.path.join(self.url, str(batch_id)),
             headers=self.headers,
         )
-        return request.json()
+        reply_json = request.json()
+        return reply_json
 
+    def save_results(self, reply_json):
+        filename = self._gen_results_filename()
+        with open(filename, "w") as file:
+            file.write(reply_json)
 
-class BatchResult:
-    """This class handles"""
-
-    def __init__(self, request_json):
-        """
-        self.original_file = image_file_name
-        self.mathml = request["data"][0]["value"]
-        self.latex = request["data"][1]["value"]
-        self.mathpixml = request["text"]
-        """
-        pass
-
-    def json(self):
-        json_ = {
-            "original_file": self.original_file,
-            "mathml": self.mathml,
-            "latex": self.latex,
-            "mathpixml": self.mathpixml,
-        }
-        return json_
+    ### Now I find a way to integrate with Liang's visualization code.
