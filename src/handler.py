@@ -129,11 +129,9 @@ class Result:
     def json(self):
         json_ = {
             "original_file": self.original_file,
-            "ml": {
-                "mathml": self.mathml,
-                "latex": self.latex,
-                "mathpixml": self.mathpixml,
-            },
+            "mathml": self.mathml,
+            "latex": self.latex,
+            "mathpixml": self.mathpixml,
         }
         return json_
 
